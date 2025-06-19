@@ -10,3 +10,4 @@ matplotlib
 plotly
 scipy
 rtree
+scikit-learn
