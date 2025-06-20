@@ -139,7 +139,6 @@ if section == "Map & Weather":
     """, unsafe_allow_html=True)
     st.markdown("""
 <div style='background-color: rgba(255,255,255,0.85); padding: 1rem; border-radius: 10px; margin-bottom: 1rem; box-shadow: 0 2px 6px rgba(0,0,0,0.1);'>
-    <h4 style='margin-bottom: 0.5rem;'>🗺️ <b>Map Legend</b></h4>
     <ul style='list-style-type: none; padding-left: 0; font-size: 0.95rem;'>
         <li>💧 <b>Blue drop icon</b>: Public drinking fountains</li>
         <li>🟩 <b>Green areas</b>: Shade-rich zones based on tree density</li>
