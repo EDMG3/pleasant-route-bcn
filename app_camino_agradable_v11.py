@@ -137,6 +137,17 @@ if section == "Map & Weather":
     st.markdown("""
     <p style='text-align: center;'>This app calculates pedestrian routes in Barcelona prioritizing shade, green zones, and drinking fountains.</p>
     """, unsafe_allow_html=True)
+    st.markdown("""
+<div style='background-color: rgba(255,255,255,0.85); padding: 1rem; border-radius: 10px; margin-bottom: 1rem; box-shadow: 0 2px 6px rgba(0,0,0,0.1);'>
+    <h4 style='margin-bottom: 0.5rem;'>🗺️ <b>Map Legend</b></h4>
+    <ul style='list-style-type: none; padding-left: 0; font-size: 0.95rem;'>
+        <li>💧 <b>Blue drop icon</b>: Public drinking fountains</li>
+        <li>🟩 <b>Green areas</b>: Shade-rich zones based on tree density</li>
+        <li>🔵 <b>Blue line</b>: Suggested pleasant route</li>
+    </ul>
+</div>
+""", unsafe_allow_html=True)
+
 
     for k in ["origin", "destination", "coords_origin", "coords_destination", "route", "stage"]:
         if k not in st.session_state:
