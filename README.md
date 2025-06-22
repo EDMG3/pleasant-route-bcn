@@ -14,7 +14,7 @@
       <li><i>OD_Arbrat_Viari_BCN.csv</i>: Tree data from road and street environments.</li>
       <li><i>OD_Arbrat_Zona_BCN.csv</i>: Tree data from the squares, parterres, gazebos or small garden spaces.</li>
       <li><i>zonas_verdes.geojson</i>: GeoJSON file representing the green zones (parks, gardens, etc.) in Barcelona.</li>
-      <li><i>grafo_barcelona_verde_muestreado.graphml</i>: A pre-generated graph representing the green paths and urban spaces in Barcelona.</li>
+      <li><i>grafo_barcelona_verde_muestreado.graphml</i>: Weighted graph that counts distances to green areas.</li>
       <li><i>codigo_genera_grafo_v2.py</i>: Python script used to generate the graph structure used for route optimization in the application.</li>
       <li><i>AEMETAPI.py</i>: Script that connects to the AEMET API to retrieve real-time weather information.</li>
       <li><i>app_camino_agradable_v11.py</i>: The main Streamlit app that: 
