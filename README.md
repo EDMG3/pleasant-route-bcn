@@ -10,13 +10,13 @@
     <p><strong>Project Files</strong></p>
     <ul>
       <li><i>2025_fonts_beure.csv</i>: Contains data on the locations of public drinking fountains in Barcelona.</li>
-      <li><i>AEMETAPI.py</i>: Script that connects to the AEMET API to retrieve real-time weather information.</li>
       <li><i>OD_Arbrat_Parcs_BCN.csv</i>: Tree data from public parks.</li>
       <li><i>OD_Arbrat_Viari_BCN.csv</i>: Tree data from road and street environments.</li>
-      <li><i>OD_Arbrat_Zona_BCN.csv</i>: Aggregated tree data organized by zones within Barcelona.</li>
+      <li><i>OD_Arbrat_Zona_BCN.csv</i>: Tree-covered area of ​​the city of Barcelona.</li>
       <li><i>zonas_verdes.geojson</i>: GeoJSON file representing the green zones (parks, gardens, etc.) in Barcelona.</li>
       <li><i>grafo_barcelona_verde_muestreado.graphml</i>: A pre-generated graph representing the green paths and urban spaces in Barcelona.</li>
       <li><i>codigo_genera_grafo_v2.py</i>: Python script used to generate the graph structure used for route optimization in the application.</li>
+      <li><i>AEMETAPI.py</i>: Script that connects to the AEMET API to retrieve real-time weather information.</li>
       <li><i>app_camino_agradable_v11.py</i>: The main Streamlit app that: 
         <ul>
           <li>Displays an interactive map</li>
