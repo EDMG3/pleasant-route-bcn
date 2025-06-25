@@ -35,7 +35,7 @@ def load_trees():
         pd.read_csv("OD_Arbrat_Parcs_BCN.csv")
     )
 
-@st.cache_data
+
 def get_aemet_data(api_key):
     aemet = AemetAPI(api_key)
     try:
